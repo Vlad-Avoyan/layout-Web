@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* headr style */
+
+.conteiner {
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+
+.header {
+    width: 40%;
+    height: 60px;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around; 
+    float: right;
+    margin-right: 180px;
+}
+
+.header div {
+    padding-top: 20px;
+}
+
+.aboutBtton, .serviceButton, .clientsButton, .contactsButton {
+    color: white;
+    cursor: pointer;
+}
+
+/* buttons style  */
+
+.homeButton {
+    color:#DEB100;
+    cursor: pointer;
+}
+
+.animateButtons:hover{
+    color:#DEB100;
+}
+
+.aboutBtton:hover{
+    color:#DEB100;
+}
+
+.serviceButton:hover{
+    color:#DEB100;
+}
+
+.clientsButton:hover{
+    color:#DEB100;
+}
+.contactsButton:hover{
+    color:#DEB100;
+}
