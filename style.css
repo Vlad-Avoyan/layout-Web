@@ -20,6 +20,7 @@
     justify-content: space-around; 
     float: right;
     margin-right: 180px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .header div {
@@ -56,3 +57,44 @@
 .contactsButton:hover{
     color:#DEB100;
 }
+
+/* lOGO AND PHONE STYLE  */
+
+.phoneMessageDiv {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top:  20px;
+}
+
+.logo {
+    width: 210px;
+    height: 100px;
+}
+.phone {
+    width: 335px;
+    height: 100px;
+}
+.imgLogo {
+    margin-top: 15px;
+}
+.logoText {
+    float: right;
+}
+.logoText p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+/* --------------------------------- */
+/* phone and meesage text style */
+
+.phone p {
+    font-weight: bold;
+    float: right;
+}
+.phone h3 {
+    padding-top: 15px;
+} 
